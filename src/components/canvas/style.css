@@ -1,6 +1,8 @@
 .game-canvas-container{
     width: 100%;
     height: 100%;
+    position: absolute;
+    background: #255255;
 }
 
 .game-canvas-container canvas {

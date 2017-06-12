@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './assets/images/logo.svg';
 import Video from './components/video';
+import PixiCanvas from './components/canvas/pixi-basic';
 import './assets/css/App.css';
 
 class App extends Component {
@@ -11,9 +12,10 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>EDI-CAM</h2>
         </div>
-        <p className="App-intro">
+        <div className="App-intro">
           <Video />
-        </p>
+          <PixiCanvas/>
+        </div>
       </div>
     );
   }
